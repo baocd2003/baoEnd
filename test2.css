@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
 *{
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
-	font-family: Muli ;
-
+	font-family: 'Mulish', sans-serif ;
 }
 header{
 	width: 100%;
@@ -269,7 +269,7 @@ header{
 	padding: 2px 16px;
 	margin-top: 16px;
 	margin-bottom: 12px;
-	margin-left:66px;
+	margin-left:60px;
 }
 .m-wrap{
 	transition: all ease 0.2s;
@@ -788,7 +788,7 @@ footer{
 		width:100%;
 	}
 	.btn{
-		margin-left:40px;
+		margin-left:25px;
 	}
 	#test{
 		width:100%;
@@ -898,6 +898,9 @@ footer{
 	.w{
 		padding-left:15px !important ;
 	}
+	.description{
+		/* margin-left:50px; */
+	}
 
 }
 
@@ -1006,5 +1009,8 @@ footer{
 	footer{
 		margin-top:20px;
 		
+	}
+	.btn{
+		margin-left:60px;
 	}
 }
